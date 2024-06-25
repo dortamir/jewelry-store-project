@@ -25,6 +25,14 @@ const createApp = async function () {
   app.use(express.urlencoded({ extended: false }));
 
   console.log('App Created !');
+  await db.connect(
+    "mongodb+srv://shaniattias851:shaniattias851@cluster0.wtvqcd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  ).then(()=>{
+    console.log('Database Connected!');
+  })
+  .catch(()=>{
+    console.log('failed');
+  })
 
   /*await db.connect(
     "mongodb+srv://sivan0252:YDucINw2cGRBs19I@cluster0.nj84cuz.mongodb.net/",
