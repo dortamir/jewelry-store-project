@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../image/backimage.jpg);
+  background: linear-gradient(hsla(0, 2%, 81%, 0.75), rgba(203, 202, 202, 0.75)), url(../image/backimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -90,7 +90,7 @@ section {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(210, 208, 208, 0.1);
   width: 300px;
 }
 
@@ -115,7 +115,7 @@ section {
 }
 
 nav {
-  background-color: #333;
+  background-color: #bcb9b9;
   padding: 20px;
   color: #fff;
   height: 60px;
